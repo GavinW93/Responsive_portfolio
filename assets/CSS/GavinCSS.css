@@ -3,7 +3,7 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777777;
-  background: url("../images/concrete_seamless.png");
+
 }
 
 
@@ -228,4 +228,44 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+/* Set the background color of body to tan */
+body {
+  background-color: tan;
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+  body {
+    background-color: blue;
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+    
+  }
+  
+}
+
+@media screen and (max-width: 992px) {
+  .lists{
+    float: none;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .lists {
+   
+    float: left;
+  }
+}
+@media screen and (max-width: 600px) {
+  .navig {
+    
+    float: left;
+   
+  }
 }
